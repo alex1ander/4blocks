@@ -1,0 +1,37 @@
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    width: 500px;
+    height: 500px;
+    transform: rotate(45deg);
+    padding-top:200px;
+}
+.child{
+    display: block;
+    box-sizing: border-box;
+    border: solid white 20px;
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+.child:hover{
+    border: solid gray 20px;
+}
+.child.active{
+    border: 20px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color:  lime;
+}
+.blue{
+    background-color: blue;
+}
